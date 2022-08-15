@@ -13,10 +13,11 @@
 
 /* Variables */
 :root {
-    --main-color: #10ac84;
-    --secondary-color: #ecf0f1;
-    --text-color: #1dd1a1;
+    --main-color: #43A047;
+    --secondary-color: #C8E6C9;
+    --text-color: #2E7D32;
     --bg-color: #fff;
+    --hover-color: #81C784;
 
     /* Box Shadow */
     --box-shadow: 2px 2px 10px 4px rgba(14 55 54 / 15%);
@@ -113,7 +114,7 @@ header.shadow {
     font-weight: 700;
 }
 .btn:hover {
-    background: #d1ccc0;
+    background: var(--hover-color);
 }
 .about {
     display: grid;
